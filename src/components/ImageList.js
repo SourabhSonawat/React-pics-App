@@ -5,6 +5,9 @@ function ImageList({ images }) {
     const renderesImages = images.map((image) => {
         return <ImageShow key={image.id} image={image} />
     })
+
+
+
     return <div className='image-list'>{renderesImages}</div>;
 };
 
